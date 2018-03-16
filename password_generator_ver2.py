@@ -43,12 +43,12 @@ def main():
     root.maxsize(width=300, height=75)
     root.title("Password Generator")
 
-    # Create button to generate a random pick three
+    # Create button to generate a random password
     button = tk.Button(root, text='Generate Password',
                        width=25, command=onClick)
     button.pack()
 
-    # Create a label to display the random pick three
+    # Create a label to display the random password
     e = tk.Entry(root, width=30)
     e.pack()
 
